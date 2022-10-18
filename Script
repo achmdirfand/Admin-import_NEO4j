@@ -1,0 +1,15 @@
+./neo4j-admin import --database=import1 --force --delimiter="|" --ignore-extra-columns=true   --skip-duplicate-nodes=true --multiline-fields=true --skip-bad-relationships=true \
+--nodes=Pegawai=/mnt/neo4j/import/header/pegawai_cust.csv,/mnt/neo4j/import/4_poc_graph_tbl_pegawai.csv/part-00000-f9b91468-ac62-4d48-b17c-2b15eabaa082-c000.csv \	
+--nodes=Pegawai=/mnt/neo4j/import/header/transaksi_head.csv,/mnt/neo4j/import/2_poc_graph_tbl_transaksi.csv/part-00000-5e8e737b-2e7c-494b-869d-8e008cee68b8-c000.csv \
+--nodes=Pegawai=/mnt/neo4j/import/header/transaksi_head.csv,/mnt/neo4j/import/2_poc_graph_tbl_transaksi.csv/part-00001-5e8e737b-2e7c-494b-869d-8e008cee68b8-c000.csv \
+--nodes=Pegawai=/mnt/neo4j/import/header/transaksi_head.csv,/mnt/neo4j/import/2_poc_graph_tbl_transaksi.csv/part-00002-5e8e737b-2e7c-494b-869d-8e008cee68b8-c000.csv \
+--nodes=Pegawai=/mnt/neo4j/import/header/transaksi_head.csv,/mnt/neo4j/import/2_poc_graph_tbl_transaksi.csv/part-00003-5e8e737b-2e7c-494b-869d-8e008cee68b8-c000.csv \
+--nodes=Pegawai=/mnt/neo4j/import/header/transaksi_head.csv,/mnt/neo4j/import/2_poc_graph_tbl_transaksi.csv/part-00004-5e8e737b-2e7c-494b-869d-8e008cee68b8-c000.csv \
+--nodes=Pegawai=/mnt/neo4j/import/header/transaksi_head.csv,/mnt/neo4j/import/2_poc_graph_tbl_transaksi.csv/part-00005-5e8e737b-2e7c-494b-869d-8e008cee68b8-c000.csv \
+--nodes=Pegawai=/mnt/neo4j/import/header/transaksi_head.csv,/mnt/neo4j/import/2_poc_graph_tbl_transaksi.csv/part-00006-5e8e737b-2e7c-494b-869d-8e008cee68b8-c000.csv \
+--nodes=Pegawai=/mnt/neo4j/import/header/transaksi_head.csv,/mnt/neo4j/import/2_poc_graph_tbl_transaksi.csv/part-00007-5e8e737b-2e7c-494b-869d-8e008cee68b8-c000.csv \
+--nodes=Pegawai=/mnt/neo4j/import/header/transaksi_head.csv,/mnt/neo4j/import/2_poc_graph_tbl_transaksi.csv/part-00008-5e8e737b-2e7c-494b-869d-8e008cee68b8-c000.csv \
+--nodes=Pegawai=/mnt/neo4j/import/header/transaksi_head.csv,/mnt/neo4j/import/2_poc_graph_tbl_transaksi.csv/part-00009-5e8e737b-2e7c-494b-869d-8e008cee68b8-c000.csv \																										  part-00009-5e8e737b-2e7c-494b-869d-8e008cee68b8-c000.csv
+--nodes=Pegawai=/mnt/neo4j/import/header/transaksi_tab_head.csv,/mnt/neo4j/import/8_poc_graph_tbl_transaksi_tab.csv/part-00000-81b34eb5-ce7d-466b-86a2-95585de534fa-c000.csv \
+--nodes=Pegawai=/mnt/neo4j/import/header/transaksi_tab_head.csv,/mnt/neo4j/import/8_poc_graph_tbl_transaksi_tab.csv/part-00001-81b34eb5-ce7d-466b-86a2-95585de534fa-c000.csv \
+--nodes=Pegawai=/mnt/neo4j/import/header/transaksi_tab_head.csv,/mnt/neo4j/import/8_poc_graph_tbl_transaksi_tab.csv/part-00002-81b34eb5-ce7d-466b-86a2-95585de534fa-c000.csv
